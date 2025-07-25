@@ -1,0 +1,59 @@
+.view-seating-container {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #e6f4ea;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .view-seating-container h2 {
+    text-align: center;
+    color: #2e7d32;
+    margin-bottom: 24px;
+  }
+  
+  .seating-form {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  
+  .seating-form input,
+  .seating-form button {
+    padding: 10px 14px;
+    font-size: 16px;
+    border: 1px solid #c8e6c9;
+    border-radius: 8px;
+  }
+  
+  .seating-form button {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .seating-form button:hover {
+    background-color: #388e3c;
+  }
+  
+  .seating-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .seating-table th,
+  .seating-table td {
+    padding: 12px 16px;
+    border: 1px solid #a5d6a7;
+    text-align: center;
+  }
+  
+  .seating-table th {
+    background-color: #a5d6a7;
+    color: white;
+  }
+  

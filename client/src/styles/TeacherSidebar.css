@@ -1,0 +1,119 @@
+.teacher-sidebar {
+    width: 240px;
+    height: 100vh;
+    background-color: #1f7a8c;
+    color: #ffffff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #e0f2f1;
+  }
+  
+  .sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .sidebar-nav a, .logout-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #e0f2f1;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 6px;
+    transition: 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .sidebar-nav a:hover,
+  .sidebar-nav a.active,
+  .logout-link:hover {
+    background-color: #16697a;
+    font-weight: 500;
+  }
+  
+  .sidebar-icon {
+    font-size: 18px;
+  }
+  /* .logout {
+    cursor: pointer;
+    /* color: #b71c1c; 
+    font-weight: 500;
+    margin-top: auto;  Pushes the logout button to the bottom of the sidebar 
+  padding: 10px;
+  background-color: #f44336;  A red color for the logout button 
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  }
+  
+  .logout:hover {
+    background-color: #f8d7da;
+     color: #a71313; 
+  }    */
+  /* .logout {
+    cursor: pointer;
+    color: #ff6b6b;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout:hover {
+    background-color: #ffecec;
+  } */
+  .logout-option {
+    cursor: pointer;
+    color: #ff6b6b;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-option:hover {
+    background-color: #ffecec;
+  }
+  .logout-option {
+    cursor: pointer;
+    background-color: #e63946; /* a soft red */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+  
+  .logout-option:hover {
+    background-color: #c62828; /* deeper red on hover */
+  }
+  .logout-option {
+    background-color: #e63946;      /* Red background */
+    color: white;
+    padding: 12px 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .logout-option:hover {
+    background-color: #c62828;     /* Darker red on hover */
+  }
+  
+  .logout-option .icon {
+    margin-right: 10px;
+    font-size: 18px;
+  }  

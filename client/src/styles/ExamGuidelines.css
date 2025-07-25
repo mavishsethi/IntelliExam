@@ -1,0 +1,27 @@
+.guidelines-container {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #e6f4ea;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .guidelines-container h2 {
+    color: #2e7d32;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .guidelines-container ul {
+    list-style: decimal;
+    padding-left: 30px;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #2e7d32;
+  }
+  
+  .guidelines-container li {
+    margin-bottom: 12px;
+  }
+  

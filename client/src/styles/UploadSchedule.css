@@ -1,0 +1,45 @@
+.upload-schedule-container {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #e6f4ea;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .upload-schedule-container h2 {
+    text-align: center;
+    color: #2e7d32;
+    margin-bottom: 24px;
+  }
+  
+  .upload-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  
+  .upload-form input[type="text"],
+  .upload-form input[type="date"],
+  .upload-form input[type="file"] {
+    padding: 12px;
+    border: 1px solid #a5d6a7;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  
+  .upload-form button {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .upload-form button:hover {
+    background-color: #388e3c;
+  }
+  

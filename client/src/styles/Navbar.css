@@ -1,0 +1,119 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e6f2e6;
+    padding: 12px 30px;
+    border-bottom: 2px solid #b3d9b3;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* background-color: #1b262c; */
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-title {
+    margin-left: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #2e7d32;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  
+  .navbar-option {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #2e7d32;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-option:hover {
+    color: #1b5e20;
+  }
+  
+  .navbar-icon {
+    font-size: 20px;
+    margin-right: 6px;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #114b5f; */
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-icon {
+    margin-right: 8px;
+    font-size: 18px;
+  }
+  
+  .navbar-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .navbar-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .navbar-option {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .badge {
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    padding: 2px 5px;
+    border-radius: 50%;
+    font-weight: bold;
+  }
+  .dropdown {
+    position: absolute;
+    top: 35px;
+    right: 0;
+    background-color: #ffffff;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 999;
+    width: 200px;
+  }
+  
+  .dropdown p {
+    margin: 5px 0;
+    font-size: 14px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+  }
+  
+  .dropdown p:last-child {
+    border-bottom: none;
+  }
+  
+  

@@ -1,0 +1,156 @@
+ 
+      /* .student-home-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        min-height: 100vh;
+        background-color: #f3f6f9;
+        font-family: "Segoe UI", sans-serif;
+      }
+      
+      
+      .home-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #2c3e50;
+        margin-bottom: 40px;
+        text-align: center;
+      }
+      
+      .home-options {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        max-width: 400px;
+      }
+      
+      .home-button {
+        padding: 14px 20px;
+        font-size: 1rem;
+        background-color: #16a085; 
+        color: #ffffff;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background 0.3s ease, transform 0.2s ease;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      .home-button:hover {
+        background-color: #138d75;
+        transform: translateY(-2px);
+      }
+      
+      .logout-button {
+        background-color: #e74c3c;
+      }
+      
+      .logout-button:hover {
+        background-color: #c0392b;
+      }
+       */
+       /* .home-container {
+        text-align: center;
+        padding: 50px 20px;
+        background-color: #e0f7f1;
+        min-height: 100vh;
+        font-family: 'Segoe UI', sans-serif;
+      }
+      
+      .home-container h1 {
+        color: #034d3f;
+        font-size: 32px;
+        margin-bottom: 40px;
+      }
+      
+      .home-buttons {
+        display: flex;
+        flex-direction: column;   Stack buttons vertically 
+        align-items: center;
+        gap: 20px;
+      }
+      
+      .home-button {
+        background-color: #a8e6cf;
+        color: #034d3f;
+        border: none;
+        padding: 12px 24px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+        width: 250px;
+        transition: background-color 0.3s ease;
+      }
+      
+      .home-button:hover {
+        background-color: #85d1b2;
+      }
+      
+      .logout-button {
+        background-color: #f77e7e;
+        color: white;
+      }
+      
+      .logout-button:hover {
+        background-color: #e06060;
+      }
+       */
+       .dashboard-container {
+        display: flex;
+        height: 100vh;
+        font-family: 'Segoe UI', sans-serif;
+      }
+      
+      .sidebar {
+        width: 300px;
+        background-color: #2d6a4f;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        gap: 15px;
+      }
+      
+      .logo {
+        font-size: 20px;
+        font-weight: bold;
+        /* margin-bottom: 30px; */
+      }
+      
+      .sidebar button {
+        background: #40916c;
+        color: white;
+        border: none;
+        padding: 12px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 15px;
+        transition: background 0.3s;
+      }
+      
+      .sidebar button:hover {
+        background: #52b788;
+      }
+      
+      .logout {
+        background-color: #d00000;
+        margin-top: auto;
+      }
+      
+      .logout:hover {
+        background-color: #a80000;
+      }
+      
+      .main-content {
+        flex-grow: 1;
+        /* background-color: #f0fdf4; */
+        /* padding: 40px; */
+      }
+      
+      .main-content h1 {
+        color: #2d6a4f;
+      }
+      

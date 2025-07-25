@@ -1,0 +1,126 @@
+.sidebar {
+    width: 230px;
+    height: 100vh;
+    background-color: #114b5f;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  
+  .sidebar-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #f3f3f3;
+  }
+  
+  .sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .sidebar-nav a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #e4e4e4;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  
+  .sidebar-nav a:hover,
+  .sidebar-nav a.active {
+    background-color: #1f7a8c;
+    color: #ffffff;
+    font-weight: 500;
+  }
+  
+  .sidebar-icon {
+    font-size: 18px;
+  }
+  
+  .logout-option {
+    cursor: pointer;
+    /* color: #b71c1c; */
+    font-weight: 500;
+    margin-top: auto; /* Pushes the logout button to the bottom of the sidebar */
+  padding: 10px;
+  background-color: #f44336; /* A red color for the logout button */
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  }
+  
+  .logout-option:hover {
+    background-color: #f8d7da;
+    /* color: #a71313; */
+  } 
+  .sidebar {
+    width: 230px;
+    height: 100vh;
+    background-color: #114b5f;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+  }
+  .sidebar {
+    width: 230px;
+    min-height: 100vh;
+    background-color: #114b5f;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-shrink: 0; /* Prevents shrinking */
+  }
+  .sidebar {
+    width: 499px;
+    height: 100vh;
+    background-color: #114b5f;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  /*  */
+  .logout-option {
+    background-color: #e63946;      /* Red background */
+    color: white;
+    padding: 12px 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .logout-option:hover {
+    background-color: #c62828;     /* Darker red on hover */
+  }
+  
+  .logout-option .icon {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  

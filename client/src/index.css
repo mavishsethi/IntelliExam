@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Global Reset and Background */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #eaf6f6; /* Calming green tone */
+  background-color: #e6f4ea;
+  background-color: #f0fdf4;
+}
+
+/* Ensure full height is taken */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Wrapper that holds the whole page */
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* ensures it fills the screen */
+}
+
+/* This part will grow and push the footer down */
+.app-content {
+  flex: 1;
+  padding: 20px; /* optional */
+}
+/* Reset & Typography */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html, #root {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden; /* 💥 Key fix: Prevents horizontal scroll */
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0fdf4; /* Calming green tone */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Prevent extra scroll from child elements */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* App layout wrapper */
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Content area that grows */
+.app-content {
+  flex: 1;
+  padding: 20px;
+  margin-left: 230px; /* matches sidebar width */
+  width: calc(100% - 230px); /* prevent overflow */
+}
+
+/* Footer should stay at the bottom */
+footer {
+  background-color: #114b5f; /* contrast dark teal */
+  color: #fff;
+  text-align: center;
+  padding: 8px 10px;
+  font-size: 14px;
+}
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.app-wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 230px;
+  flex-shrink: 0;
+}
+
+.app-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 20px;
+  background-color: #f0fdf4;
+}
+
+.main-body {
+  flex: 1; /* This will grow and push footer to bottom */
+}
+
+footer {
+  background-color: #114b5f;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+/* Reset + Layout */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden; /* prevents horizontal scroll */
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0fdf4;
+}
+
+/* Full App Container */
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/* Main content holds sidebar + page */
+.main-content {
+  display: flex;
+  flex: 1;
+  min-height: calc(100vh - 60px); /* leave space for footer */
+}
+
+/* Sidebar should stay fixed width */
+.sidebar {
+  width: 230px;
+  background-color: #114b5f;
+  color: white;
+  flex-shrink: 0;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+/* Page content next to sidebar */
+.page-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Grows to push footer down */
+.page-content > *:not(footer) {
+  flex: 1;
+}
+
+/* Footer styles */
+footer {
+  background-color: #114b5f;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  margin-top: auto;
+}
